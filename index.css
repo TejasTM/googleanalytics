@@ -45,7 +45,7 @@
     
 }
 #banner{
-    background: url(https://analytics.withgoogle.com/static/assets/hero-analytics.jpg);
+    background: url("https://analytics.withgoogle.com/static/assets/hero-analytics.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
