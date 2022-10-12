@@ -1,0 +1,339 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    
+}
+#navbar{
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: rgb(166, 165, 165) 0.5px 0.5px 10px;
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+
+
+}
+#l-div .logo{
+    height: 40px;
+    margin: 10px 25px;
+}
+#r-div a{
+    background-color: #0b8043;
+    height: 60px;
+    width: 180px;
+    border: 0px;
+    border-radius: 0px;
+    color: #fff;
+    /* opacity: 0.9; */
+    padding: 12px 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    
+    
+
+}
+
+#body{
+    padding: 0;
+    margin-top: 60px;
+    margin: 0;
+    
+}
+#banner{
+    background: url(/cloneAnalytics/hero-analytics.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 768px;
+    margin-top: 0px;
+    /* margin-bottom: 100px; */
+   
+   
+}
+.banner-div{
+    display: block;
+    top: 0;
+   margin-left: 140px;
+   /* margin-top: 120px; */
+}
+#hh1
+{
+    visibility: hidden;
+}
+
+#Bh1{
+    color: white;
+    font-size: 40px;
+   margin-top: 130px; 
+}
+ #Bh2{
+    color: #fff;
+    font-size: 55px;
+    margin-top: 0px;
+}
+#banner h3
+{
+    color:#fff;
+    font-size: 25px;
+    /* margin-top: 20px; */
+    margin-bottom: 50px;
+}
+#banner a{
+    background-color: #0b8043;
+    height: 60px;
+    width: 180px;
+    border: 0px;
+    border-radius: 0px;
+    color: #fff;
+    padding: 12px 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    text-decoration:none ;
+    /* margin-top: 15px; */
+    
+}
+.cards2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 25PX;
+    margin: 30PX;
+    /* position: fixed; */
+}
+
+.card{
+    border: none;
+    /* width: 800px;
+    height: 200px; */
+    /* margin-bottom: 25PX; */
+    position: static;
+
+}
+.card img{
+    height: 200PX;
+    width: 270PX;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.card p{
+    color: #666;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.card h5{
+    color: #444;
+    font-family: "Google Sans", sans-serif;
+    font-size: 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.card-body{
+    width: 500px;
+}
+
+.carousel-item{
+    background-color: #3e4eb8;
+    height: 500px;
+}
+.carousel-item h1 {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 35px;
+    margin-left: 50px;
+    text-align: center;
+}
+.carousel-item h3{
+    display: flex;
+    color: #fff;
+    margin-top: 10px;
+    justify-content: center;
+ 
+}
+.ch1{
+    margin: 20px 20px;
+    background-color: white;
+    color: #444;
+
+}
+
+.brand-list{
+     height: 400px;
+    
+}
+
+.brand-list h1{
+    color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px ;
+
+}
+
+.brands{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.brands img{
+    margin-top: 50px;
+    width: 180px;
+    height: 150px;
+}
+
+.laptop{
+    background-color: #eeeeee;
+}
+#lh1{
+    visibility: hidden;
+}
+
+.laptop h1{
+    color: #444;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px ;
+}
+
+
+.laptop img{
+    width: 700px;
+    height: 400px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.laptop h4{
+    color: #666;
+    display: flex;
+    justify-content: center;
+
+}
+
+.laptop button{
+    display: flex; 
+    justify-content: center;
+    border: none;
+    margin-left: 45%;
+}
+.laptop button a{
+    background-color: #0b8043;
+    height: 60px;
+    width: 180px;
+    border: 0px;
+    border-radius: 2px;
+    color: #fff;
+    padding: 12px 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+}
+
+.laptop a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 10px 0px 20px 0px;
+
+}
+
+.link-div h1{
+    color: #444;
+    font-family: "Google Sans", sans-serif;
+    font-size: 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+.a-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.a-div div{
+
+    border: 1px solid #666;
+    border-radius: 5px;
+    height: 200px;
+    width: 250px;
+    margin-bottom: 50px;
+}
+.a-div a{
+    text-decoration: none;
+}
+.a-div a h3{
+    color: #666;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 5px;
+    text-align: center;
+    
+}
+.a-div a p{
+    color: #666;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.footer{
+    margin-top: 50px;
+    background: #666;
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.links  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.links li{
+    margin: 30px;
+    list-style: none;
+}
+
+.links a{
+     text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.google{
+    margin-left: 50px;
+}
+.help{
+    display: flex;
+    margin-left: 620px;
+}
+.help a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
